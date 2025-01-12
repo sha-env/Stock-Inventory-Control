@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/img_1"
+        />
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="150dp"
+        android:layout_height="184dp"
+        android:layout_below="@+id/img_1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/gambar2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_2"
+        android:text="Stock Inventory Control"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:id="@+id/txt_1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_1"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Stock Inventory Control adalah proses untuk mengelola dan memantau stok barang, memastikan ketersediaan sesuai kebutuhan sambil meminimalkan biaya dan risiko kelebihan atau kekurangan stok."
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/black"
+        android:id="@+id/txt_2"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txt_2"
+        android:width="300dp"
+        android:text="Masuk"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/poppinsbold"
+        android:id="@+id/btn_1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btn_1"
+        android:width="300dp"
+        android:text="Daftar"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/poppinsbold"
+        android:id="@+id/btn_2"
+        />
+
+</RelativeLayout>
