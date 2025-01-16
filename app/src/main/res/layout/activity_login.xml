@@ -27,15 +27,13 @@
         android:id="@+id/img_2"
         android:layout_width="150dp"
         android:layout_height="184dp"
-        android:layout_marginTop="70dp"
-        android:layout_below="@drawable/gambar1"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/gambar2" />
+        android:src="@drawable/gambar2"
+        android:layout_marginTop="150dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_below="@+id/img_2"
         android:text="Selamat Datang"
         android:layout_centerHorizontal="true"
@@ -46,15 +44,13 @@
         />
 
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_below="@+id/R_txt_1"
+        android:layout_below="@+id/img_2"
         android:padding="30dp"
         android:id="@+id/ly_1">
-
 
 
         <EditText
@@ -62,10 +58,10 @@
             android:layout_height="57dp"
             android:background="@drawable/button_shape"
             android:layout_marginTop="10dp"
-            android:hint="Masukan alamat email"
+            android:hint="Masukan Password"
             android:paddingLeft="10dp"
             android:backgroundTint="@color/white"
-            android:id="@+id/edt_email"
+            android:id="@+id/edt_password"
             android:fontFamily="@font/poppinsregular"/>
 
         <EditText
@@ -84,7 +80,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Masuk"
+        android:text="Login"
         android:layout_below="@id/ly_1"
         android:layout_centerHorizontal="true"
         android:background="@drawable/button_shape"
@@ -94,6 +90,28 @@
         android:id="@+id/R_btn_1"
         android:fontFamily="@font/poppinssemibold" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/R_btn_1"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudah punya email?"
+            android:fontFamily="@font/poppinsregular"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masuk"
+            android:fontFamily="@font/poppinssemibold"
+            android:textSize="12sp"
+            android:textColor="@color/SecondaryColor" />
 
     </LinearLayout>
 
