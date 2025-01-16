@@ -23,10 +23,20 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"/>
 
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="150dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="70dp"
+        android:layout_below="@drawable/gambar1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/gambar2" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/R_img_1"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/img_2"
         android:text="Selamat Datang"
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/poppinssemibold"
@@ -35,36 +45,17 @@
         android:id="@+id/R_txt_1"
         />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/R_txt_1"
-        android:text="Kami akan bantu menyelesaikan tugas anda"
-        android:layout_centerHorizontal="true"
-        android:fontFamily="@font/poppinsregular"
-        android:textSize="12sp"
-        android:textColor="@color/black"
-        android:layout_marginTop="10dp"
-        android:id="@+id/R_txt_2"
-        />
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_below="@id/R_txt_2"
+        android:layout_below="@+id/R_txt_1"
         android:padding="30dp"
         android:id="@+id/ly_1">
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="57dp"
-            android:background="@drawable/button_shape"
-            android:hint="Masukan Nama Lengkap"
-            android:paddingLeft="10dp"
-            android:backgroundTint="@color/white"
-            android:id="@+id/edt_fullname"
-            android:fontFamily="@font/poppinsregular"/>
+
 
         <EditText
             android:layout_width="match_parent"
@@ -75,17 +66,6 @@
             android:paddingLeft="10dp"
             android:backgroundTint="@color/white"
             android:id="@+id/edt_email"
-            android:fontFamily="@font/poppinsregular"/>
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="57dp"
-            android:background="@drawable/button_shape"
-            android:layout_marginTop="10dp"
-            android:hint="Masukan Password"
-            android:paddingLeft="10dp"
-            android:backgroundTint="@color/white"
-            android:id="@+id/edt_password"
             android:fontFamily="@font/poppinsregular"/>
 
         <EditText
@@ -104,7 +84,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Masuk"
         android:layout_below="@id/ly_1"
         android:layout_centerHorizontal="true"
         android:background="@drawable/button_shape"
@@ -114,28 +94,6 @@
         android:id="@+id/R_btn_1"
         android:fontFamily="@font/poppinssemibold" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_below="@id/R_btn_1"
-        android:gravity="center"
-        android:layout_marginTop="20dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sudah punya email?"
-            android:fontFamily="@font/poppinsregular"
-            android:textSize="12sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Masuk"
-            android:fontFamily="@font/poppinssemibold"
-            android:textSize="12sp"
-            android:textColor="@color/SecondaryColor" />
 
     </LinearLayout>
 
