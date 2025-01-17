@@ -1,8 +1,10 @@
 package com.suparman.stockinventorycontrol
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -24,5 +26,17 @@ class LoginActivity : AppCompatActivity() {
             // For example, log an error or show a message to the user
             Log.e("LoginActivity", "View with ID 'main' not found")
         }
+
+        // Handle "Masuk" click
+        val txtMasuk = findViewById<TextView>(R.id.daftar)
+        txtMasuk.setOnClickListener {
+            // Navigate to RegisterActivity
+            navigateToRegisterActivity()
+        }
+    }
+    // Fungsi untuk berpindah ke RegisterActivity
+    private fun navigateToRegisterActivity() {
+        val intent = Intent(this, RegisterActivity::class.java)
+        startActivity(intent)
     }
 }

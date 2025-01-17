@@ -33,7 +33,7 @@
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/poppinssemibold"
         android:textSize="18sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:id="@+id/txt_1"
         />
 
@@ -45,7 +45,7 @@
         android:padding="20dp"
         android:text="Stock Inventory Control adalah proses untuk mengelola dan memantau stok barang, memastikan ketersediaan sesuai kebutuhan sambil meminimalkan biaya dan risiko kelebihan atau kekurangan stok."
         android:fontFamily="@font/poppinsregular"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:id="@+id/txt_2"
         />
 
@@ -57,7 +57,7 @@
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/poppinssemibold"
         android:textSize="18sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:id="@+id/txt_3"
         />
 

@@ -40,7 +40,7 @@
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/poppinssemibold"
         android:textSize="18sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:id="@+id/L_txt_1"
         />
 
@@ -59,8 +59,8 @@
             android:layout_height="57dp"
             android:background="@drawable/button_shape"
             android:layout_marginTop="10dp"
-            android:hint="User Name"
-            android:paddingLeft="10dp"
+            android:hint="Username"
+            android:paddingLeft="16dp"
             android:backgroundTint="@color/white"
             android:id="@+id/edt_password"
             android:fontFamily="@font/poppinsregular"/>
@@ -71,7 +71,7 @@
             android:background="@drawable/button_shape"
             android:layout_marginTop="10dp"
             android:hint="Password"
-            android:paddingLeft="10dp"
+            android:paddingLeft="16dp"
             android:backgroundTint="@color/white"
             android:id="@+id/edt_konf_password"
             android:fontFamily="@font/poppinsregular"/>
@@ -102,17 +102,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sudah punya email?"
+            android:text="Belum punya akun? "
             android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/white"
             android:textSize="12sp"/>
 
         <TextView
+            android:id="@+id/daftar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Masuk"
+            android:text="Daftar"
             android:fontFamily="@font/poppinssemibold"
             android:textSize="12sp"
-            android:textColor="@color/SecondaryColor" />
+            android:textColor="@color/PrimaryColor" />
 
     </LinearLayout>
 
