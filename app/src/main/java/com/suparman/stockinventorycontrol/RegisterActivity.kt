@@ -25,12 +25,12 @@ class RegisterActivity : AppCompatActivity() {
             val confirmPassword = edtConfirmPassword.text.toString()
 
             if (fullName.isEmpty() || email.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()) {
-                Toast.makeText(this, "All fields are required", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Isi Semua Kolom", Toast.LENGTH_SHORT).show()
             } else if (password != confirmPassword) {
-                Toast.makeText(this, "Passwords do not match", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Passwords Tidak Sesuai", Toast.LENGTH_SHORT).show()
             } else {
                 // Lakukan proses registrasi disini
-                Toast.makeText(this, "Registration Successful", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Registrasi Sukses", Toast.LENGTH_SHORT).show()
                 // Contoh: Kembali ke LoginActivity
                 finish()
             }
