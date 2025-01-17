@@ -9,6 +9,13 @@
     android:backgroundTint="#229488">
 
     <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="150dp"
+        android:layout_height="184dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/gambar2" />
+
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/gambar1"
@@ -23,13 +30,6 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"/>
 
-    <ImageView
-        android:id="@+id/img_2"
-        android:layout_width="150dp"
-        android:layout_height="184dp"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/gambar2" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/poppinssemibold"
         android:textSize="18sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:id="@+id/R_txt_1"
         />
 
@@ -50,7 +50,7 @@
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/poppinsregular"
         android:textSize="12sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:layout_marginTop="10dp"
         android:id="@+id/R_txt_2"
         />
@@ -68,7 +68,7 @@
             android:layout_height="57dp"
             android:background="@drawable/button_shape"
             android:hint="Masukan Nama Lengkap"
-            android:paddingLeft="10dp"
+            android:paddingLeft="16dp"
             android:backgroundTint="@color/white"
             android:id="@+id/edt_fullname"
             android:fontFamily="@font/poppinsregular"/>
@@ -78,8 +78,8 @@
             android:layout_height="57dp"
             android:background="@drawable/button_shape"
             android:layout_marginTop="10dp"
-            android:hint="Masukan alamat email"
-            android:paddingLeft="10dp"
+            android:hint="Masukan Alamat Email"
+            android:paddingLeft="16dp"
             android:backgroundTint="@color/white"
             android:id="@+id/edt_email"
             android:fontFamily="@font/poppinsregular"/>
@@ -90,7 +90,7 @@
             android:background="@drawable/button_shape"
             android:layout_marginTop="10dp"
             android:hint="Masukan Password"
-            android:paddingLeft="10dp"
+            android:paddingLeft="16dp"
             android:backgroundTint="@color/white"
             android:id="@+id/edt_password"
             android:fontFamily="@font/poppinsregular"/>
@@ -101,7 +101,7 @@
             android:background="@drawable/button_shape"
             android:layout_marginTop="10dp"
             android:hint="Konfirmasi Password"
-            android:paddingLeft="10dp"
+            android:paddingLeft="16dp"
             android:backgroundTint="@color/white"
             android:id="@+id/edt_konf_password"
             android:fontFamily="@font/poppinsregular"/>
@@ -111,7 +111,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="Daftar"
         android:layout_below="@id/ly_1"
         android:layout_centerHorizontal="true"
         android:background="@drawable/button_shape"
@@ -132,7 +132,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sudah punya email?"
+            android:text="Sudah punya akun? "
+            android:textColor="@color/white"
             android:fontFamily="@font/poppinsregular"
             android:textSize="12sp"/>
 
@@ -143,7 +144,7 @@
             android:text="Masuk"
             android:fontFamily="@font/poppinssemibold"
             android:textSize="12sp"
-            android:textColor="@color/SecondaryColor" />
+            android:textColor="@color/PrimaryColor" />
 
     </LinearLayout>
 

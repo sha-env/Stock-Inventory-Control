@@ -1,5 +1,6 @@
 package com.suparman.stockinventorycontrol
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -40,7 +41,12 @@ class RegisterActivity : AppCompatActivity() {
         val txtMasuk = findViewById<TextView>(R.id.R_txt_masuk)
         txtMasuk.setOnClickListener {
             // Navigate to LoginActivity
-            finish()
+            navigateToLoginActivity()
         }
+    }
+    // Fungsi untuk berpindah ke LoginActivity
+    private fun navigateToLoginActivity() {
+        val intent = Intent(this, LoginActivity::class.java)
+        startActivity(intent)
     }
 }
