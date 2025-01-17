@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context="LoginActivity"
     android:background="@color/background"
-    android:backgroundTint="#229488">
+    android:backgroundTint="#229488"
+    android:id="@+id/login">
 
     <ImageView
         android:layout_width="wrap_content"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="RegisterActivity"
+    tools:context=".RegisterActivity"
     android:background="@color/background"
     android:backgroundTint="#229488">
 
@@ -111,7 +111,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Register"
         android:layout_below="@id/ly_1"
         android:layout_centerHorizontal="true"
         android:background="@drawable/button_shape"
@@ -137,6 +137,7 @@
             android:textSize="12sp"/>
 
         <TextView
+            android:id="@+id/R_txt_masuk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Masuk"
@@ -145,6 +146,5 @@
             android:textColor="@color/SecondaryColor" />
 
     </LinearLayout>
-
 
 </RelativeLayout>
