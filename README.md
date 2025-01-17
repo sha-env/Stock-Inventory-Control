@@ -1,15 +1,12 @@
 <div align=center>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=100:FF0000,20:F0F0F0&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
-
-![Stock Inventory Control Banner](https://github.com/user-attachments/assets/6dce4a9a-c124-413d-816b-a0ea878a6cd9)
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=20:FF0000,100:F0F0F0&section=header&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
+![Stock Inventory Control](https://github.com/user-attachments/assets/fa010cb9-7fa3-4cf9-bbf8-f451d70302b9)
 
 </div>
 
 # Stock Inventory Control
 
-This repository aims to provide a comprehensive starting point for understanding and implementing basic stock inventory control operations. These operations are implemented in Python and serve as a great introduction to inventory management for beginners and intermediate programmers.
+This repository aims to provide a comprehensive starting point for understanding and implementing basic stock inventory control operations.
 
 <hr><br>
 
