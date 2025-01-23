@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Stock Inventory Control</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Stock Inventory Control</string>
+    <string name="nav_header_subtitle">Version 1.0</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--  SideNav  -->
+    <string name="menu_home">Main Menu</string>
+    <!--  Management  -->
+    <string name="title_menu_management">Management</string>
+    <string name="menu_stock">Stocks</string>
+    <string name="menu_document">Documents</string>
+    <string name="menu_expense">Expenses</string>
+    <string name="menu_report">Reports</string>
+    <string name="menu_supplier">Suppliers</string>
+    <string name="menu_customer">Customers</string>
+    <string name="menu_store">Stores</string>
+    <!--  Settings  -->
+    <string name="title_menu_setting">Settings and Others</string>
+    <string name="menu_setting">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_support">Need Support?</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_privacy">Privacy Policy</string>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+    </group>
+
+    <item android:title="@string/title_menu_management">
+        <menu>
+            <item
+                android:id="@+id/nav_stock"
+                android:icon="@drawable/ic_menu_stock"
+                android:title="@string/menu_stock" />
+            <item
+                android:id="@+id/nav_document"
+                android:icon="@drawable/ic_menu_document"
+                android:title="@string/menu_document"/>
+            <item
+                android:id="@+id/nav_expense"
+                android:icon="@drawable/ic_menu_expense"
+                android:title="@string/menu_expense"/>
+            <item
+                android:id="@+id/nav_report"
+                android:icon="@drawable/ic_menu_report"
+                android:title="@string/menu_report"/>
+            <item
+                android:id="@+id/nav_supplier"
+                android:icon="@drawable/ic_menu_supplier"
+                android:title="@string/menu_supplier"/>
+            <item
+                android:id="@+id/nav_customer"
+                android:icon="@drawable/ic_menu_customer"
+                android:title="@string/menu_customer"/>
+            <item
+                android:id="@+id/nav_store"
+                android:icon="@drawable/ic_menu_store"
+                android:title="@string/menu_store"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/title_menu_setting">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_setting"
+                android:title="@string/menu_setting"/>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_about"
+                android:title="@string/menu_about"/>
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@drawable/ic_menu_support"
+                android:title="@string/menu_support"/>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_menu_help"
+                android:title="@string/menu_help"/>
+            <item
+                android:id="@+id/nav_privacy"
+                android:icon="@drawable/ic_menu_privacy"
+                android:title="@string/menu_privacy"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.suparmanandguan.stockinventorycontrol.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_stock"
+        android:name="com.suparmanandguan.stockinventorycontrol.ui.home.HomeFragment"
+        android:label="@string/menu_stock"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_document"
+        android:name="com.suparmanandguan.stockinventorycontrol.ui.home.HomeFragment"
+        android:label="@string/menu_document"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_expense"
+        android:name="com.suparmanandguan.stockinventorycontrol.ui.home.HomeFragment"
+        android:label="@string/menu_expense"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="com.suparmanandguan.stockinventorycontrol.ui.home.HomeFragment"
+        android:label="@string/menu_report"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_supplier"
+        android:name="com.suparmanandguan.stockinventorycontrol.ui.home.HomeFragment"
+        android:label="@string/menu_supplier"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_customer"
+        android:name="com.suparmanandguan.stockinventorycontrol.ui.home.HomeFragment"
+        android:label="@string/menu_customer"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_store"
+        android:name="com.suparmanandguan.stockinventorycontrol.ui.home.HomeFragment"
+        android:label="@string/menu_store"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.suparmanandguan.stockinventorycontrol.ui.home.HomeFragment"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.suparmanandguan.stockinventorycontrol.ui.home.HomeFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_support"
+        android:name="com.suparmanandguan.stockinventorycontrol.ui.home.HomeFragment"
+        android:label="@string/menu_support"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.suparmanandguan.stockinventorycontrol.ui.home.HomeFragment"
+        android:label="@string/menu_help"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_privacy"
+        android:name="com.suparmanandguan.stockinventorycontrol.ui.home.HomeFragment"
+        android:label="@string/menu_privacy"
+        tools:layout="@layout/fragment_home" />
+
+</navigation>
