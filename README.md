@@ -18,11 +18,19 @@ Storing inventory data persistently is essential for maintaining accurate record
 
 ## Demo
 
-<div align=center>
+Here is a demonstration of the `addInventoryItem` function from the `InventoryManager.kt` file:
 
-![Stock Inventory Control](https://github.com/user-attachments/assets/fa010cb9-7fa3-4cf9-bbf8-f451d70302b9)
+```kotlin
+// filepath: /home/guan/Documents/Code/Stock-Inventory-Control/src/main/kotlin/com/example/inventory/InventoryManager.kt
+fun addInventoryItem(item: InventoryItem) {
+    // ...existing code...
+    inventoryList.add(item)
+    println("Item added: ${item.name}")
+    // ...existing code...
+}
+```
 
-</div>
+This function adds a new item to the inventory list and prints a confirmation message.
 
 ## Releases
 
