@@ -1,9 +1,3 @@
-<div align=center>
-
-![Stock Inventory Control](https://github.com/user-attachments/assets/fa010cb9-7fa3-4cf9-bbf8-f451d70302b9)
-
-</div>
-
 # Stock Inventory Control
 
 This repository aims to provide a comprehensive starting point for understanding and implementing basic stock inventory control operations.
@@ -22,6 +16,18 @@ Storing inventory data persistently is essential for maintaining accurate record
 
 <hr><br>
 
+## Demo
+
+<div align=center>
+
+![Stock Inventory Control](https://github.com/user-attachments/assets/fa010cb9-7fa3-4cf9-bbf8-f451d70302b9)
+
+</div>
+
+## Releases
+
+You can find all releases and changelogs [here](https://github.com/user/Stock-Inventory-Control/releases).
+
 ## Features
 
 - Examples of adding, updating, and removing inventory items
@@ -34,6 +40,28 @@ Storing inventory data persistently is essential for maintaining accurate record
 
 - Kotlin
 - Java
+
+## Project Setup
+
+To set up this project locally in Android Studio, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/user/Stock-Inventory-Control.git
+   ```
+2. Open Android Studio.
+3. Click on `File > Open` and navigate to the cloned repository directory.
+4. Select the project directory and click `OK`.
+5. Android Studio will automatically start importing the project and downloading the necessary dependencies.
+
+## Steps to Run
+
+To run the application in Android Studio, follow these steps:
+
+1. Ensure that you have an Android device connected or an emulator running.
+2. Click on the `Run` button (green play icon) in the toolbar.
+3. Select the target device or emulator and click `OK`.
+4. The application will be built and deployed to the selected device/emulator.
 
 ## License
 
