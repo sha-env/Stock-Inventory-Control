@@ -1,0 +1,1 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">    <item>        <inset            android:drawable="@drawable/ic_menu_stock"            android:insetLeft="200dp"            android:insetTop="200dp"            android:insetRight="200dp"            android:insetBottom="200dp"/>    </item></layer-list>

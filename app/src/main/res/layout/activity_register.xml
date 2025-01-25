@@ -12,8 +12,10 @@
         android:id="@+id/img_2"
         android:layout_width="150dp"
         android:layout_height="184dp"
+        android:layout_marginTop="30dp"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/gambar2" />
+        android:src="@drawable/ic_menu_stock_inset"
+        app:tint="@color/white"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -67,7 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:background="@drawable/button_shape"
-            android:hint="Masukan Nama Lengkap"
+            android:hint="Masukan Nama"
             android:paddingLeft="16dp"
             android:backgroundTint="@color/white"
             android:id="@+id/edt_fullname"
@@ -78,7 +80,7 @@
             android:layout_height="57dp"
             android:background="@drawable/button_shape"
             android:layout_marginTop="10dp"
-            android:hint="Masukan Alamat Email"
+            android:hint="Masukan Email"
             android:paddingLeft="16dp"
             android:backgroundTint="@color/white"
             android:id="@+id/edt_email"
