@@ -35,6 +35,14 @@ Storing inventory data persistently is essential for maintaining accurate record
 - Kotlin
 - Java
 
+- ## Story Board
+
+![1](https://github.com/user-attachments/assets/f565871b-ca85-4ccf-b9aa-0d324977352f)
+
+![2](https://github.com/user-attachments/assets/45e6f5d3-146b-4d20-8f17-46cb27966c3e)
+
+![3](https://github.com/user-attachments/assets/46a4abf7-da8c-4c49-b85a-648cc38e507c)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
