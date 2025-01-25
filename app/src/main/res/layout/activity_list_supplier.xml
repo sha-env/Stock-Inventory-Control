@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:backgroundTint="#229488"
+    android:id="@+id/list_supplier">
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="150dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_menu_supplier_inset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/r_txt_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="List Supplier"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/r_txt_2"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Masukan Kode Supplier"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/edt_fullname"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r_txt_"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/r_txt_4"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Masukan Nama Supplier"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/r_txt_2"
+        app:layout_constraintTop_toBottomOf="@+id/r_txt_2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/r_txt_8"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Masukan Alamat Supplier"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/r_txt_2"
+        app:layout_constraintTop_toBottomOf="@+id/edt_fullname4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/r_txt_9"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Masukan No.Tlp Supplier"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/r_txt_2"
+        app:layout_constraintTop_toBottomOf="@+id/r_txt_8"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edt_fullname"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/r_txt_2"
+        app:layout_constraintTop_toTopOf="@+id/r_txt_2" />
+
+    <EditText
+        android:id="@+id/edt_fullname4"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/edt_fullname"
+        app:layout_constraintTop_toTopOf="@+id/r_txt_4" />
+
+    <EditText
+        android:id="@+id/edt_fullname5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/edt_fullname"
+        app:layout_constraintTop_toTopOf="@+id/r_txt_8" />
+
+    <EditText
+        android:id="@+id/edt_fullname6"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/edt_fullname"
+        app:layout_constraintTop_toTopOf="@+id/r_txt_9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
