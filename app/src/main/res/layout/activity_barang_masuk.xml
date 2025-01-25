@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="@color/background"
     android:backgroundTint="#229488"
-    android:id="@+id/list_barang_masuk">
+    android:id="@+id/list_barang_masuk"
+    >
 
     <ImageView
         android:id="@+id/img_2"
