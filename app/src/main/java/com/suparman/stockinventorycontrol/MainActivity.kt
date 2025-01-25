@@ -30,6 +30,8 @@ class MainActivity : AppCompatActivity() {
         buttonRegister.setOnClickListener {
             navigateToRegisterActivity()
         }
+
+
     }
 
     // Fungsi untuk berpindah ke SecondActivity

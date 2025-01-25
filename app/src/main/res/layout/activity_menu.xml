@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:id="@+id/btn_stock"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:background="@drawable/side_nav_bar"
+        android:src="@drawable/ic_menu_stock_inset"
+        app:layout_constraintBottom_toTopOf="@+id/btn_expense"
+        app:layout_constraintEnd_toStartOf="@+id/btn_document"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:tint="@color/white" />
+
+    <ImageView
+        android:id="@+id/btn_document"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:background="@drawable/side_nav_bar"
+        android:src="@drawable/ic_menu_document_inset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_stock"
+        app:layout_constraintTop_toTopOf="@+id/btn_stock"
+        app:tint="@color/white" />
+
+    <ImageView
+        android:id="@+id/btn_expense"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/side_nav_bar"
+        android:src="@drawable/ic_menu_expense_inset"
+        app:layout_constraintBottom_toTopOf="@+id/btn_supplier"
+        app:layout_constraintEnd_toStartOf="@+id/btn_report"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_stock"
+        app:layout_constraintVertical_bias="0.5"
+        app:tint="@color/white" />
+
+    <ImageView
+        android:id="@+id/btn_report"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:background="@drawable/side_nav_bar"
+        android:src="@drawable/ic_menu_report_inset"
+        app:layout_constraintEnd_toEndOf="@+id/btn_document"
+
+        app:layout_constraintTop_toTopOf="@+id/btn_expense"
+        app:tint="@color/white"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <ImageView
+        android:id="@+id/btn_supplier"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="22dp"
+
+        android:background="@drawable/side_nav_bar"
+        android:src="@drawable/ic_menu_supplier_inset"
+        app:layout_constraintBottom_toTopOf="@+id/btn_store"
+        app:layout_constraintEnd_toStartOf="@+id/btn_customer"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_expense"
+        app:layout_constraintVertical_bias="0.5"
+        app:tint="@color/white" />
+
+    <ImageView
+        android:id="@+id/btn_customer"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:background="@drawable/side_nav_bar"
+        android:src="@drawable/ic_menu_customer_inset"
+        app:layout_constraintEnd_toEndOf="@+id/btn_report"
+        app:layout_constraintTop_toTopOf="@+id/btn_supplier"
+        app:tint="@color/white" />
+
+    <ImageView
+        android:id="@+id/btn_store"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/side_nav_bar"
+        android:src="@drawable/ic_menu_store_inset"
+        app:layout_constraintBottom_toTopOf="@+id/btn_about"
+        app:layout_constraintEnd_toStartOf="@+id/btn_setting"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_supplier"
+        app:layout_constraintVertical_bias="0.5"
+        app:tint="@color/white" />
+
+    <ImageView
+        android:id="@+id/btn_setting"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:background="@drawable/side_nav_bar"
+        android:src="@drawable/ic_menu_setting_inset"
+        app:layout_constraintEnd_toEndOf="@+id/btn_customer"
+        app:layout_constraintTop_toTopOf="@+id/btn_store"
+        app:tint="@color/white" />
+
+    <ImageView
+        android:id="@+id/btn_about"
+        android:layout_width="71dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/side_nav_bar"
+        android:src="@drawable/ic_menu_about_inset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btn_store"
+        app:layout_constraintTop_toBottomOf="@+id/btn_store"
+        app:layout_constraintVertical_bias="0.5"
+        app:tint="@color/white" />
+
+    <ImageView
+        android:id="@+id/btn_support"
+        android:layout_width="71dp"
+        android:layout_height="59dp"
+        android:background="@drawable/side_nav_bar"
+        android:src="@drawable/ic_menu_support_inset"
+        app:layout_constraintEnd_toEndOf="@+id/btn_store"
+        app:layout_constraintTop_toTopOf="@+id/btn_about"
+        app:tint="@color/white" />
+
+    <ImageView
+        android:id="@+id/btn_help"
+        android:layout_width="71dp"
+        android:layout_height="59dp"
+        android:background="@drawable/side_nav_bar"
+        android:src="@drawable/ic_menu_help_inset"
+        app:layout_constraintStart_toStartOf="@+id/btn_setting"
+        app:layout_constraintTop_toTopOf="@+id/btn_support"
+        app:tint="@color/white" />
+
+    <ImageView
+        android:id="@+id/btn_privacy"
+        android:layout_width="71dp"
+        android:layout_height="59dp"
+        android:background="@drawable/side_nav_bar"
+        android:src="@drawable/ic_menu_privacy_inset"
+        app:layout_constraintEnd_toEndOf="@+id/btn_setting"
+        app:layout_constraintTop_toTopOf="@+id/btn_help"
+        app:tint="@color/white" />
+
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -12,9 +13,9 @@ import androidx.core.view.WindowInsetsCompat
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login) // Pastikan layout ini benar
+        setContentView(R.layout.activity_login) // Ensure this layout is correct
 
-        val mainView = findViewById<View>(R.id.main) // Pastikan ID ini benar
+        val mainView = findViewById<View>(R.id.login) // Ensure this ID is correct
         if (mainView != null) {
             ViewCompat.setOnApplyWindowInsetsListener(mainView) { v, insets ->
                 val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -23,7 +24,6 @@ class LoginActivity : AppCompatActivity() {
             }
         } else {
             // Handle the case where the view is null
-            // For example, log an error or show a message to the user
             Log.e("LoginActivity", "View with ID 'main' not found")
         }
 
@@ -33,10 +33,23 @@ class LoginActivity : AppCompatActivity() {
             // Navigate to RegisterActivity
             navigateToRegisterActivity()
         }
+
+        // Handle "Register" button click
+        val buttonMenu = findViewById<Button>(R.id.R_btn_1)
+        buttonMenu.setOnClickListener {
+            navigateToMenuActivity()
+        }
     }
-    // Fungsi untuk berpindah ke RegisterActivity
+
+    // Function to navigate to RegisterActivity
     private fun navigateToRegisterActivity() {
         val intent = Intent(this, RegisterActivity::class.java)
+        startActivity(intent)
+    }
+
+    // Function to navigate to MenuActivity
+    private fun navigateToMenuActivity() {
+        val intent = Intent(this, MenuActivity::class.java)
         startActivity(intent)
     }
 }
