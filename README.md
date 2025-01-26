@@ -16,7 +16,7 @@ Storing inventory data persistently is essential for maintaining accurate record
 
 <hr><br>
 
-## Demo
+## Demonstration
 
 Here is a demonstration of the `addInventoryItem` function from the `InventoryManager.kt` file:
 
@@ -32,9 +32,13 @@ fun addInventoryItem(item: InventoryItem) {
 
 This function adds a new item to the inventory list and prints a confirmation message.
 
+<hr><br>
+
 ## Releases
 
 You can find all releases and changelogs [here](https://github.com/user/Stock-Inventory-Control/releases).
+
+<hr><br>
 
 ## Features
 
@@ -44,10 +48,14 @@ You can find all releases and changelogs [here](https://github.com/user/Stock-In
 - Error handling for inventory operations
 - Detailed comments and explanations
 
+<hr><br>
+
 ## Technologies Used
 
 - Kotlin
 - Java
+
+<hr><br>
 
 ## Project Setup
 
@@ -62,6 +70,8 @@ To set up this project locally in Android Studio, follow these steps:
 4. Select the project directory and click `OK`.
 5. Android Studio will automatically start importing the project and downloading the necessary dependencies.
 
+<hr><br>
+
 ## Steps to Run
 
 To run the application in Android Studio, follow these steps:
@@ -71,14 +81,16 @@ To run the application in Android Studio, follow these steps:
 3. Select the target device or emulator and click `OK`.
 4. The application will be built and deployed to the selected device/emulator.
 
+<hr><br>
+
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache-2.0 License. See the [LICENSE](LICENSE) file for details.
 
 <hr><br>
 
 <div align="center">
-  <a href="https://www.instagram.com/guanshiyin_/">
-     <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=100:FF0000,20:F0F0F0&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
-  </a>
+   <a href="https://www.instagram.com/guanshiyin_/">
+      <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=100:393E46,20:F7F7F7&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
+   </a>
 </div>
