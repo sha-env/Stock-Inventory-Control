@@ -1,4 +1,4 @@
-package com.suparmanandguan.stockinventorycontrol.ui.slideshow
+package com.guan.stockinventorycontrol.ui.slideshow
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

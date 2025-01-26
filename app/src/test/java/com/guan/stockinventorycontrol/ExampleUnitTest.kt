@@ -1,4 +1,4 @@
-package com.suparmanandguan.stockinventorycontrol
+package com.guan.stockinventorycontrol
 
 import org.junit.Test
 

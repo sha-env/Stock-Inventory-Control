@@ -1,4 +1,4 @@
-package com.suparmanandguan.stockinventorycontrol
+package com.guan.stockinventorycontrol
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
