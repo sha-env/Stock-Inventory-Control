@@ -1,4 +1,4 @@
-package com.guan.stockinventorycontrol.ui.home
+package com.yansha.stockinventorycontrol.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

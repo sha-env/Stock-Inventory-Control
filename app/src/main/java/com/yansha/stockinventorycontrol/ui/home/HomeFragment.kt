@@ -1,11 +1,11 @@
-package com.guan.stockinventorycontrol.ui.home
+package com.yansha.stockinventorycontrol.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.guan.stockinventorycontrol.databinding.FragmentHomeBinding
+import com.yansha.stockinventorycontrol.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 

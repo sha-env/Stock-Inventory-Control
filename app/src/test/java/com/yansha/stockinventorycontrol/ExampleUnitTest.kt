@@ -1,4 +1,4 @@
-package com.guan.stockinventorycontrol
+package com.yansha.stockinventorycontrol
 
 import org.junit.Test
 

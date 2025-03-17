@@ -1,4 +1,4 @@
-package com.guan.stockinventorycontrol.ui.slideshow
+package com.yansha.stockinventorycontrol.ui.slideshow
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.guan.stockinventorycontrol.databinding.FragmentSlideshowBinding
+import com.yansha.stockinventorycontrol.databinding.FragmentSlideshowBinding
 
 class SlideshowFragment : Fragment() {
 

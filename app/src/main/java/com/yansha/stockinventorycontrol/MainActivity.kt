@@ -1,4 +1,4 @@
-package com.guan.stockinventorycontrol
+package com.yansha.stockinventorycontrol
 
 import android.content.Intent
 import android.net.Uri
@@ -12,7 +12,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
-import com.guan.stockinventorycontrol.databinding.ActivityMainBinding
+import com.yansha.stockinventorycontrol.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
