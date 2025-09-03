@@ -91,6 +91,6 @@ This project is licensed under the Apache-2.0 License. See the [LICENSE](LICENSE
 
 <div align="center">
    <a href="https://www.instagram.com/nv4rl0s3/">
-      <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=100:393E46,20:F7F7F7&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
+      <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=100:000000,20:FFFFFF&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
    </a>
 </div>
